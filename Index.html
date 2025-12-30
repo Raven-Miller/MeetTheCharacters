@@ -3,7 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="{{ '/styles/style.css' | url }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Meet the Main Characters</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main-index">
+      <h1>Meet the Main Characters</h1>
+      <div class="charFlex">
+        <figure>
+          <a href="{{ '/characters/edith/' | url }}">Edith Baker</a>
+        </figure>
+        <figure>
+          <a href="{{ '/characters/morgan/' | url }}">Morgan Thompson</a>
+        </figure>
+        <figure>
+          <a href="{{ '/characters/june/' | url }}">June Campbell</a>
+        </figure>
+        <figure>
+          <a href="{{ '/characters/alex/' | url }}">Alex Wright</a>
+        </figure>
+        <figure>
+          <a href="{{ '/characters/ben/' | url }}">Ben Livington</a>
+        </figure>
+      </div>
+    </main>
+  </body>
 </html>

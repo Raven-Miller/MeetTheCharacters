@@ -1,0 +1,157 @@
+html,
+body {
+  font-family: "EB Garamond", serif;
+  font-size: large;
+  overscroll-behavior: none;
+  text-wrap-mode: wrap;
+}
+main {
+  margin: 20%;
+  margin-top: 5px;
+  margin-bottom: 0%;
+}
+.main-index {
+  display: grid;
+  justify-items: center;
+  height: 98vh;
+}
+
+.breadcrumbs {
+  display: flex;
+  color: black;
+  a {
+    color: black;
+  }
+}
+.charFlex {
+  display: flex;
+  a {
+    text-decoration: none;
+    color: black;
+    border: #000000 1px solid;
+    padding: 6px;
+  }
+}
+
+.callout {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.edith {
+  background-color: #b3c2b6;
+}
+.morgan {
+  background-color: #d9dbfc;
+  padding-left: 20px;
+}
+.june {
+  background-color: #f7dcb2;
+}
+.blank {
+  border: solid, 1px, gray;
+  padding-left: 20px;
+}
+.ben {
+  background-color: #69aca9;
+  border: solid, 2px;
+}
+
+.quote {
+  border-left: solid;
+  border-width: 4px;
+}
+.juneq {
+  border-color: #dd9b31;
+  padding-left: 8px;
+}
+.benq {
+  border-color: #275856;
+  padding-left: 8px;
+}
+
+.no-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul p {
+  background-color: #b3c2b6;
+  padding-left: 4px;
+}
+ul li p {
+  background-color: rgb(179, 175, 175, 0);
+}
+ul {
+  line-height: 30px;
+}
+
+.columns {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
+  justify-items: center;
+}
+.triple .item {
+  width: 30vw;
+}
+.double .item {
+  width: 45vw;
+}
+.double {
+  gap: 20%;
+}
+
+.colorScheme {
+  width: 80%;
+}
+
+.pin {
+  color: black;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 6px;
+  border-width: 1px;
+  padding: 6px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.pin:hover {
+  background-color: #e7e7e7;
+}
+
+.item {
+  line-height: 30px;
+}
+
+.junet {
+  color: #9e6305;
+}
+.alext {
+  color: #1d6ebb;
+}
+.bent {
+  color: #275856;
+}
+.full-width {
+  width: 90%;
+}
+
+.doodle {
+  border: #000000 solid 2px;
+}
+@media (max-width: 768px) {
+  main {
+    margin: 2%;
+  }
+  .charFlex,
+  .columns {
+    flex-direction: column;
+  }
+  .columns .item {
+    width: 80vw;
+  }
+}
